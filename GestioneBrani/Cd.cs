@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestioneBrani
 {
-    class Cd
+    public class Cd
     {
     }
 }

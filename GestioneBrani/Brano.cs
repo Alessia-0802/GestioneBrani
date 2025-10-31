@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestioneBrani
 {
-    class Brano
+    public class Brano
     {
     }
 }

@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{C834983D-DC2A-4956-AE76-00A4CEF05FD8}|GestioneBrani\\GestioneBrani.csproj|solutionrelative:gestionebrani\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C834983D-DC2A-4956-AE76-00A4CEF05FD8}|GestioneBrani\\GestioneBrani.csproj|z:\\tpsit\\gestionebrani\\gestionebrani\\gestionebrani\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C834983D-DC2A-4956-AE76-00A4CEF05FD8}|GestioneBrani\\GestioneBrani.csproj|solutionrelative:gestionebrani\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C834983D-DC2A-4956-AE76-00A4CEF05FD8}|GestioneBrani\\GestioneBrani.csproj|z:\\tpsit\\gestionebrani\\gestionebrani\\gestionebrani\\brano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C834983D-DC2A-4956-AE76-00A4CEF05FD8}|GestioneBrani\\GestioneBrani.csproj|solutionrelative:gestionebrani\\brano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C834983D-DC2A-4956-AE76-00A4CEF05FD8}|GestioneBrani\\GestioneBrani.csproj|z:\\tpsit\\gestionebrani\\gestionebrani\\gestionebrani\\cd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C834983D-DC2A-4956-AE76-00A4CEF05FD8}|GestioneBrani\\GestioneBrani.csproj|solutionrelative:gestionebrani\\cd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C834983D-DC2A-4956-AE76-00A4CEF05FD8}|GestioneBrani\\GestioneBrani.csproj|z:\\tpsit\\gestionebrani\\gestionebrani\\gestionebrani\\brano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C834983D-DC2A-4956-AE76-00A4CEF05FD8}|GestioneBrani\\GestioneBrani.csproj|solutionrelative:gestionebrani\\brano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +30,8 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "Z:\\tpsit\\GestioneBrani\\GestioneBrani\\GestioneBrani\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GestioneBrani\\MainWindow.xaml",
-              "ToolTip": "Z:\\tpsit\\GestioneBrani\\GestioneBrani\\GestioneBrani\\MainWindow.xaml*",
-              "RelativeToolTip": "GestioneBrani\\MainWindow.xaml*",
+              "ToolTip": "Z:\\tpsit\\GestioneBrani\\GestioneBrani\\GestioneBrani\\MainWindow.xaml",
+              "RelativeToolTip": "GestioneBrani\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-31T08:03:21.154Z",
               "EditorCaption": ""
@@ -43,25 +39,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "Z:\\tpsit\\GestioneBrani\\GestioneBrani\\GestioneBrani\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "GestioneBrani\\AssemblyInfo.cs",
-              "ToolTip": "Z:\\tpsit\\GestioneBrani\\GestioneBrani\\GestioneBrani\\AssemblyInfo.cs",
-              "RelativeToolTip": "GestioneBrani\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T08:11:55.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Brano.cs",
               "DocumentMoniker": "Z:\\tpsit\\GestioneBrani\\GestioneBrani\\GestioneBrani\\Brano.cs",
               "RelativeDocumentMoniker": "GestioneBrani\\Brano.cs",
               "ToolTip": "Z:\\tpsit\\GestioneBrani\\GestioneBrani\\GestioneBrani\\Brano.cs",
               "RelativeToolTip": "GestioneBrani\\Brano.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T08:11:43.989Z",
               "EditorCaption": ""
@@ -74,7 +57,7 @@
               "RelativeDocumentMoniker": "GestioneBrani\\Cd.cs",
               "ToolTip": "Z:\\tpsit\\GestioneBrani\\GestioneBrani\\GestioneBrani\\Cd.cs",
               "RelativeToolTip": "GestioneBrani\\Cd.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T08:11:47.628Z",
               "EditorCaption": ""

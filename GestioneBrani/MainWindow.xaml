@@ -7,6 +7,30 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TabControl>
+            <!-- Tabbella per i brani -->
+            <!-- TabItem rappresenta una scheda che può essere selezionata dall'utente.-->
+            <TabItem Header="Brani"> 
+                <StackPanel Margin="10">
+                    <TextBox Name="TitoloTextBox" Width="200" Margin="5" Text="Titolo:"/>
+                    <TextBox Name="ArtistaTextBox" Width="200" Margin="5" Text="Artista:"/>
+                    <TextBox Name="DurataTextBox" Width="100" Margin="5" Text="Durata (mm:ss)"/>
+                    <Button Content="Aggiungi Brano" Width="200" Margin="5" Click="AggiungiBrano_Click"/>
+                    <ListBox Name="BraniListBox" Margin="5" Height="150"/>
+                </StackPanel>
+            </TabItem>
 
+            <!-- Tabella per i CD -->
+            <TabItem Header="CD">
+                <StackPanel Margin="10">
+                    <TextBox Name="NomeCDTextBox" Width="200" Margin="5" Text="Nome del CD:"/>
+                    <Button Content="Crea CD" Width="200" Margin="5" Click="CreaCD_Click"/>
+                    <ListBox Name="CDListBox" Margin="5" Height="150"/>
+                    <Button Content="Aggiungi Brano al CD" Width="200" Margin="5" Click="AggiungiBranoAlCD_Click"/>
+                    <Button Content="Rimuovi Brano dal CD" Width="200" Margin="5" Click="RimuoviBranoDalCD_Click"/>
+                    <TextBlock Name="DurataTotaleTextBlock" Margin="5" />
+                </StackPanel>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
