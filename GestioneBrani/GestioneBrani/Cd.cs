@@ -11,37 +11,37 @@ namespace GestioneBrani
         private string _titolo;
         private string _autore;
         private List<Brano> _brani;
+        
+        
+        
+        public string Titolo
+        {
+            get { return _titolo; }
+            set { _titolo = value; }
+        }
+        public string Autore
+        {
+            get { return _autore; }
+            set { _autore = value; }
+        }
+        
+        
 
         public Cd(string titolo, string autore)
         {
-            _titolo = titolo;
-            _autore = autore;
-            _brani = new List<Brano>();
+            Titolo = titolo;
+            Autore = autore;
+            List<Brano> brani;
         }
-        public string GetTitolo()
-        {
-            return _titolo;
-        }
-        public void SetTitolo(string titolo)
-        {
-            _titolo = titolo;
-        }
-        public string GetAutore()
-        {
-            return _autore;
-        }
-        public void SetAutore(string autore)
-        {
-            _autore = autore;
-        }
+        
         public void AggiungiBrano(Brano b)
         {
-            _brani.Add(b);
+            brani.Add(b);
         }
         public double Durata()
         {
             double totale = 0;
-            foreach (Brano b in _brani)
+            foreach (Brano b in brani)
             {
                 totale += b.GetDurata();
             }
